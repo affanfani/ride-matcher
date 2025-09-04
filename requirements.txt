@@ -1,0 +1,20 @@
+# FastAPI and web framework dependencies
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+
+# Database dependencies
+sqlalchemy==2.0.43
+aiosqlite==0.21.0
+
+# Pydantic and validation
+pydantic==2.11.7
+pydantic-settings==2.10.1
+email-validator==2.2.0
+
+# JWT Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.12
+
+# Optional: Production server
+gunicorn==21.2.0
